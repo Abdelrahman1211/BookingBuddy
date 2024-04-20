@@ -21,6 +21,7 @@ The team members involved in this project are:
 
 - Abdelrahman EL-Sayed ([GitHub](https://github.com/Abdelrahman1211))
 - Sultan Bakhsh ([GitHub](https://github.com/5ultan22))
+- Turki Al-Harthi ([GitHub](https://github.com/Turkikhaled77))
 
 ## Structure and Design
 

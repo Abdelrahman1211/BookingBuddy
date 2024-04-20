@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This web application is designed to showcase our team's project. It includes various features and functionalities implemented using HTML, CSS, Bootstrap, Flask, Jinja, JSON, JavaScript, and jQuery. The application allows users to explore different pages, view data, interact with forms, and send emails.
+Welcome to the Booking Website! This web application is designed to showcase our team's project. It includes various features and functionalities implemented using HTML, CSS, Bootstrap, Flask, Jinja, JSON, JavaScript, and jQuery. The website provides a convenient platform for users to book hotels, flights, cars, and more. With a user-friendly interface and a range of features, we aim to make the booking process seamless and enjoyable.
+
 
 ## How to Run the Web Application
 

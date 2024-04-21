@@ -47,14 +47,16 @@ button.btn-primary:hover {
   border-color: #555;
 }
 
+/*FontAwesome Styles*/
+
 .icon {
   color: white;
   font-size: 20px;
-  margin: 8px; /* Adjust the value as needed */
+  margin: 0.5rem; /* Adjust the value as needed */
 }
 
 .plane {
-  margin: 8px; /* Adds spacing around the <i> element */
+  margin: 0.5rem; /* Adds spacing around the <i> element */
   font-size: 20px;
   color:white;
 }

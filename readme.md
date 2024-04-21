@@ -1,4 +1,4 @@
-# README.md
+# readme.md
 
 ## Introduction
 
@@ -32,8 +32,8 @@ The project files are organized as follows:
 - `data/`: Contains the JSON data file (`mobile-data.js`) used in the application.
 - `app.py`: The main Flask application file.
 - `postsdata.py`: Contains data retrieval functions using Jinja.
-- `README.md`: This file.
-- `CONTRIBUTORS.md`: Lists all the contributors to the project.
+- `readme.md`: This file.
+- `contributors.md`: Lists all the contributors to the project.
 
 ## Main Menu
 

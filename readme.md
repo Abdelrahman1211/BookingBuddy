@@ -69,7 +69,7 @@ Flask is used to handle page requests and provide server-side functionality. The
 
 ## Postman Integration
 
-Postman is utilized for various purposes, including creating a team workspace, inviting team members, and testing API requests. The instructor, Sami AlFattani (sami_alfattani@hotmail.com), has been included as a collaborator in the Postman team workspace.
+Postman is utilized for various purposes, including creating a team workspace, inviting team members, and testing API requests. The instructor, Wael Al-Ghamdi (w.alghamdi@ubt.edu.sa), has been included as a collaborator in the Postman team workspace.
 
 ## Backend Testing
 

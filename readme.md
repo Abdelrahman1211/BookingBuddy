@@ -1,5 +1,8 @@
 # readme.md
 
+  <img align: center width="353" alt="Screenshot 2024-05-07 at 10 22 31 PM" src="https://github.com/Abdelrahman1211/BookingBuddy/assets/79929250/7361727e-e693-4298-b91a-650a53e35e08">
+
+
 ## Introduction
 
 Welcome to BookingBuddy Website! This web application is designed to showcase our team's project. It includes various features and functionalities implemented using HTML, CSS, Bootstrap, Flask, Jinja, JSON, JavaScript, and jQuery. The website provides a convenient platform for users to book flights with a user-friendly interface and a range of features, we aim to make the booking process seamless and enjoyable.

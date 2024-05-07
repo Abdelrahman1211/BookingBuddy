@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recqres-Data</title>
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="../js/ajax-script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home.html">
+      <i class="fa-solid fa-ticket icon"></i>
+      BookingBuddy
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">
+            <i class="fa-solid fa-house icon"></i>
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="flight.html">
+            <i class="fa-solid fa-plane icon"></i>              
+            Flight
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">
+            <i class="fa-solid fa-info icon"></i>
+            About Us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">
+            <i class="fa-solid fa-paper-plane icon"></i>
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <button id='myButton' type='button' class='btn btn-primary'>Get Users</button>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    //Loop through the users and add them to bootstrap card
+    $(document).ready(function() {
+        $("#myButton").click(function() {
+            $.ajax({
+                url: "https://reqres.in/api/users/",
+                type: "GET",
+                success: function(response) {
+                    var html = '';
+                    $.each(response.data, function(index, user) {
+                        html += '<div class=\'col-md-2\'><div class=\'card\'><img src=\'' + user.avatar + '\' alt=\'Avatar\'><h4>' + user.first_name + " " + user.last_name + '</h4><a href="">' + user.email + '</a><br></div></div>';
+                    });
+                    $('main').html(html);  
+                }
+            });
+        });
+    });
+
+</script>
+  <!-- Footer -->
+  <footer class = 'footer'>
+    <p style="text-align: center;">&copy; Group 5: Sultan Bakhsh, Abdelrehman El-Sayed, and Turki AlHarthi.</p>
+    <div style="text-align: center;">
+      <i class="fa-solid fa-credit-card icon"></i>
+      <i class="fa-brands fa-cc-mastercard icon"></i>
+      <i class="fa-brands fa-cc-visa icon"></i>
+      <i class="fa-brands fa-cc-apple-pay icon"></i>
+  </div>  
+  </footer>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>

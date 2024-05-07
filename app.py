@@ -54,7 +54,7 @@ def send_email():
 
         msg = Message('New Contact Form Submission',
                       sender=email,
-                      recipients=['su1tancoding03@gmail.com'])
+                      recipients=['YOUR_EMAIL'])
 
         msg.body = f"Name: {name}\nEmail: {email}\n\n{message}"
 

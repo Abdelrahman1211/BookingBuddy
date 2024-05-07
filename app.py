@@ -81,7 +81,7 @@ def booked_flight():
 
         # Create and send the email
         msg = Message('Flight Booking Confirmation',
-                      sender='su1tancoding03@gmail.com',
+                      sender='YOUR_EMAIL',
                       recipients=[email])
 
         msg.body = f"Thank you for booking a flight with us!\n\n" \

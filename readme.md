@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to BookingBuddy Website! This web application is designed to showcase our team's project. It includes various features and functionalities implemented using HTML, CSS, Bootstrap, Flask, Jinja, JSON, JavaScript, and jQuery. The website provides a convenient platform for users to book hotels, flights, cars, and more. With a user-friendly interface and a range of features, we aim to make the booking process seamless and enjoyable.
+Welcome to BookingBuddy Website! This web application is designed to showcase our team's project. It includes various features and functionalities implemented using HTML, CSS, Bootstrap, Flask, Jinja, JSON, JavaScript, and jQuery. The website provides a convenient platform for users to book flights with a user-friendly interface and a range of features, we aim to make the booking process seamless and enjoyable.
 
 
 ## How to Run the Web Application

@@ -1,0 +1,365 @@
+/* Global Styles */
+.body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  background-image: url('sea2.png');
+}
+
+.footer {
+  background-color: #333;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 200%;
+  text-align: center;
+}
+
+.main-section {
+  background-image: url('sea2.jpg');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding: 0 10px 10px 0; /* Adjust this value as needed */
+  margin-bottom: 10px; /* Adjust this value based on your footer's height */
+}
+
+.destination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100vh;
+}
+
+.destination {
+  position: relative;
+  animation: slide 12s linear infinite;
+}
+
+.destination img {
+  width: 300px;
+  height: auto;
+  margin: 3px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.destination .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.destination:hover .overlay {
+  opacity: 1;
+}
+
+.image-gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.image-gallery-container img {
+  max-width: 500px;
+  margin: 5px;
+  display: none;
+}
+
+.image-gallery-container img.active {
+  display: block;
+}
+
+/* Specific Styles */
+section {
+  margin: 20px;
+}
+
+.form {
+  margin-top: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  background-color: #222;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.features-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.features-list li .icon {
+  margin-right: 5px;
+}
+
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Submit Button Styles */
+button.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button.btn-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.plane {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.info {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.nav-link {
+  padding: 10px;
+}
+
+/* Additional Styles */
+h1 {
+  color: #007bff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none; /* Add this line to remove the border */
+  outline: none; /* Add this line to remove the outline when the image is clicked */
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 50px); /* Adjust the value to leave space for the footer */
+}
+
+.logo-image {
+  width: 800px;
+  height: auto;
+}
+
+.content-wrapper {
+  text-align: center;
+  margin: 40px;
+  
+}
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review {
+  flex: 10 0 20%; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center; /* Center the text */
+}
+
+.flight-number {
+  font-weight: bold;
+}
+
+.rating {
+  color: ORANGE;
+}
+
+.airline_name {
+  color: GREEN;
+}
+
+.review-content {
+  font-style: italic;
+  color: blue;
+
+}
+
+
+/* Fade in Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.icon:hover {
+  animation: bounce 0.5s infinite;
+}
+
+/*Hover Grow Effect */
+.review {
+  transition: transform 0.3s; /* Add transition for smooth animation */
+}
+
+.review:hover {
+  transform: scale(1.05); /* Increase size by 5% when hovering */
+}
+
+/*Airplane Animation*/
+.airplane {
+  position: fixed;
+  top: 34%; /* Adjust the percentage to move the plane up or down */
+  left: -100px;
+  width: 200px;
+  height: 100px;
+  background-image: url('../static/airplane.png'); /* Replace 'path/to/your/image.png' with the actual path to your airplane image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: airplaneAnimation 4s linear forwards, hidePlane 4s linear forwards;
+}
+
+@keyframes airplaneAnimation {
+  0% { left: -100px; }
+  100% { left: calc(100% + 100px); }
+}
+
+@keyframes hidePlane {
+  0% { opacity: 1; }
+  99.9% { opacity: 1; }
+}
+
+body {
+    background-color: rgb(153, 218, 196);
+}
+ 
+.layout {
+    width: 600px;
+    margin: auto;
+}
+ 
+.accordion {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(105, 206, 105);
+    border-radius: 10px;
+}
+ 
+.accordion__question p {
+    margin: 5px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 20px;
+}
+ 
+.accordion__answer p {
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background: rgb(82, 170, 122);
+    border-radius: 10px;
+}
+ 
+.accordion:hover {
+    cursor: pointer;
+}
+ 
+.accordion__answer {
+    display: none;
+}
+ 
+.accordion.active .accordion__answer {
+    display: block;
+}

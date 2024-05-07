@@ -1,6 +1,6 @@
 # readme.md
 
-  <img align: center width="353" alt="Screenshot 2024-05-07 at 10 22 31 PM" src="https://github.com/Abdelrahman1211/BookingBuddy/assets/79929250/7361727e-e693-4298-b91a-650a53e35e08">
+  <img width="353" alt="Screenshot 2024-05-07 at 10 22 31 PM" src="https://github.com/Abdelrahman1211/BookingBuddy/assets/79929250/7361727e-e693-4298-b91a-650a53e35e08">
 
 
 ## Introduction
